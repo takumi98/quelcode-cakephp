@@ -204,3 +204,7 @@ Type::build('timestamp')
 //Inflector::rules('transliteration', ['/å/' => 'aa']);
 
 \App\Application::addPlugin('Migrations');
+
+// マイグレーション
+// $this->addPlugin('ContactManager');
+// 変わらずエラー
